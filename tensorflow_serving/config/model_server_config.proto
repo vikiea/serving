@@ -7,6 +7,8 @@ import "tensorflow_serving/config/file_system_storage_path_source.proto";
 import "tensorflow_serving/config/logging_config.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/vikiea/serving/tensorflow_serving/config/logging_config_go_proto";
+
 
 // The type of model.
 // TODO(b/31336131): DEPRECATED.

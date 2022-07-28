@@ -6,6 +6,8 @@ import "tensorflow_serving/apis/status.proto";
 import "tensorflow_serving/config/model_server_config.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/vikiea/serving/tensorflow_serving/apis/model_management_go_proto";
+
 
 message ReloadConfigRequest {
   ModelServerConfig config = 1;

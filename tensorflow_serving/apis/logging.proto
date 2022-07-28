@@ -1,6 +1,8 @@
 syntax = "proto3";
 
 package tensorflow.serving;
+option go_package = "github.com/vikiea/serving/tensorflow_serving/core/logging_go_proto";
+
 
 import "tensorflow_serving/apis/model.proto";
 import "tensorflow_serving/config/logging_config.proto";
